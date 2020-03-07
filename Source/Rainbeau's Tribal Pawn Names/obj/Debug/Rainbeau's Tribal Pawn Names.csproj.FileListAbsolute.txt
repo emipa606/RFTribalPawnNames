@@ -1,0 +1,7 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RF - Tribal Pawn Names\Assemblies\Rainbeau's Tribal Pawn Names.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RF - Tribal Pawn Names\Source\Rainbeau's Tribal Pawn Names\obj\Debug\Rainbeau's Tribal Pawn Names.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RF - Tribal Pawn Names\Source\Rainbeau's Tribal Pawn Names\obj\Debug\Rainbeau's Tribal Pawn Names.dll
+E:\Steam\steamapps\common\RimWorld\Mods\RFTribalPawnNames\Source\Rainbeau's Tribal Pawn Names\obj\Debug\Rainbeau's Tribal Pawn Names.csprojAssemblyReference.cache
+E:\Steam\steamapps\common\RimWorld\Mods\RFTribalPawnNames\Source\Rainbeau's Tribal Pawn Names\obj\Debug\Rainbeau's Tribal Pawn Names.csproj.CoreCompileInputs.cache
+E:\Steam\steamapps\common\RimWorld\Mods\RFTribalPawnNames\Source\Rainbeau's Tribal Pawn Names\obj\Debug\Rainbeau's Tribal Pawn Names.dll
+E:\Steam\steamapps\common\RimWorld\Mods\RFTribalPawnNames\1.1\Assemblies\Rainbeau's Tribal Pawn Names.dll
