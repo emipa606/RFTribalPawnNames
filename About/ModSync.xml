@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModSyncNinjaData>
+  <ID>8ce612d6-104b-4272-a1a4-6c61d60e7080</ID>
+  <ModName>[RF] Tribal Pawn Names (Continued)</ModName>
+  <Version>1.0.2.0</Version>
+  <SaveBreaking>False</SaveBreaking>
+  <Host name="Github">
+    <Owner>emipa606</Owner>
+    <Project>RFTribalPawnNames</Project>
+    <AboutDir>About</AboutDir>
+    <DownloadFrom>ModSyncMainPage</DownloadFrom>
+    <Branch>master</Branch>
+  </Host>
+</ModSyncNinjaData>
+
+
+
+
