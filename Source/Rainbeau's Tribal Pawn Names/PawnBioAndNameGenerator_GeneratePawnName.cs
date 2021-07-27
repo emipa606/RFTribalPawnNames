@@ -9,14 +9,14 @@ namespace RTPN_Code
     public static class PawnBioAndNameGenerator_GeneratePawnName
     {
         [HarmonyPriority(Priority.VeryHigh)]
-        public static bool Prefix(Pawn pawn, ref Name __result, NameStyle style = 0, string forcedLastName = null)
+        public static bool Prefix(Pawn pawn, ref Name __result, NameStyle style = 0)
         {
             if (style != NameStyle.Full)
             {
                 return true;
             }
 
-            var nameGenerator = pawn.RaceProps.GetNameGenerator(pawn.gender);
+            var nameGenerator = pawn.RaceProps?.GetNameGenerator(pawn.gender);
             if (nameGenerator != null)
             {
                 if (!nameGenerator.defName.Contains("NamerAnimalGeneric"))
@@ -59,7 +59,8 @@ namespace RTPN_Code
                 return false;
             }
 
-            if (pawn.Faction == null || !pawn.Faction.def.allowedCultures.Any())
+            if (pawn.Faction == null || pawn.Faction.def.allowedCultures == null ||
+                !pawn.Faction.def.allowedCultures.Any())
             {
                 return true;
             }

@@ -70,22 +70,26 @@ namespace RTPN_Code
             var humanNameBank = RTPN_Initializer.BankOf(PawnNameCategory.HumanStandard);
             string name;
             var randFormat = Rand.Value;
-            if (randFormat < 0.25f)
+            switch (randFormat)
             {
-                name = humanNameBank.GetName(RTPN_NameSlot.Tribal, Gender.Female);
-            }
-            else if (randFormat < 0.5f)
-            {
-                name = humanNameBank.GetName(RTPN_NameSlot.Tribal, Gender.Male);
-            }
-            else
-            {
-                var nickDesc = Rand.Value;
-                var subname1 = humanNameBank.GetName(RTPN_NameSlot.Desc, nickDesc < 0.25 ? Gender.Female : Gender.Male);
+                case < 0.25f:
+                    name = humanNameBank.GetName(RTPN_NameSlot.Tribal, Gender.Female);
+                    break;
+                case < 0.5f:
+                    name = humanNameBank.GetName(RTPN_NameSlot.Tribal, Gender.Male);
+                    break;
+                default:
+                {
+                    var nickDesc = Rand.Value;
+                    var subname1 = humanNameBank.GetName(RTPN_NameSlot.Desc,
+                        nickDesc < 0.25 ? Gender.Female : Gender.Male);
 
-                var subname2 = humanNameBank.GetName(RTPN_NameSlot.Object);
-                name = string.Concat(subname1, " ", subname2);
+                    var subname2 = humanNameBank.GetName(RTPN_NameSlot.Object);
+                    name = string.Concat(subname1, " ", subname2);
+                    break;
+                }
             }
+
 
             for (var j = 0; j < 100; j++)
             {
@@ -106,6 +110,7 @@ namespace RTPN_Code
                     return false;
                 }
             }
+
 
             __result = name;
             return false;

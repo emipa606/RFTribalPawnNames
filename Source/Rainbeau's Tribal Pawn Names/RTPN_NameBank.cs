@@ -93,7 +93,7 @@ namespace RTPN_Code
                     }
                     finally
                     {
-                        ((IDisposable) enumerator1).Dispose();
+                        enumerator1.Dispose();
                     }
 
                     if (current == null)
@@ -117,7 +117,7 @@ namespace RTPN_Code
                     }
                     finally
                     {
-                        ((IDisposable) enumerator2).Dispose();
+                        enumerator2.Dispose();
                     }
                 }
             }
