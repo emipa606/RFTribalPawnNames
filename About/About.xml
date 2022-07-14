@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>[RF] Tribal Pawn Names (Continued)</name>
   <packageId>Mlie.RFTribalPawnNames</packageId>
@@ -21,23 +21,27 @@
   <loadAfter>
     <li>brrainz.harmony</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update Rainbeau Flambes mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1539314168
 
 Regarding the view from RF about the vanilla tribal names can be questioned like this (from user Ric):
 &amp;quot;The tribal names in the base game RimWorld are from Galicians (Spanish Gaul tribes) during the Roman times. Tynan has confirmed this when he was asked about the names ... The impression that the in-game names are nonsense ... they are most certainly not.&amp;quot;
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
 		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
 		[td][url=https://github.com/emipa606/RFTribalPawnNames][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-	[/tr]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/h5VwTNL.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
 [b]This mod overhauls tribal pawn naming. Why? Well, the tribal names in the game have always felt a bit... &amp;quot;off&amp;quot; to me. It&amp;apos;s probably nothing more than my own unfamiliarity with the cultures from which the names are drawn, but I always thought they seemed a bit more &amp;quot;Spanish&amp;quot; than tribal.
 
@@ -67,12 +71,12 @@ The mod utilizes Pardeike&amp;apos;s &amp;quot;Harmony Patch Library.&amp;quot; 
 
 If you&amp;apos;re a modpack maker and want to include &amp;quot;Tribal Pawn Names&amp;quot; in your pack, or if you&amp;apos;re a modder and want to use it as the basis of a derivative mod, please feel free to do so. I ask only that you let me know about it. 
 
-[h1][i]The Ludeon forums discussion thread for my mods can be found [url=https://ludeon.com/forums/index.php?topic=46165]here[/url].
+[h1][i]The Ludeon forums discussion thread for my mods can be found [url=https://ludeon.com/forums/index.php?topic=46165]here[/url]. [/i][/h1]
 
 If you have any (helpful) suggestions for improvement, please let me know!
 
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -81,6 +85,5 @@ If you have any (helpful) suggestions for improvement, please let me know!
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
-
 </description>
 </ModMetaData>
