@@ -1,9 +1,8 @@
-﻿namespace RTPN_Code
+﻿namespace RTPN_Code;
+
+public enum RTPN_NameSlot : byte
 {
-    public enum RTPN_NameSlot : byte
-    {
-        Tribal,
-        Desc,
-        Object
-    }
+    Tribal,
+    Desc,
+    Object
 }
