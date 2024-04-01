@@ -1,12 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
 using HarmonyLib;
 using RimWorld;
 using Verse;
+using Verse.Grammar;
 
 namespace RTPN_Code;
 
-[HarmonyPatch(typeof(NameGenerator), "GenerateName", typeof(RulePackDef), typeof(Predicate<string>), typeof(bool),
-    typeof(string), typeof(string))]
+[HarmonyPatch(typeof(NameGenerator), nameof(NameGenerator.GenerateName), typeof(RulePackDef), typeof(Predicate<string>),
+    typeof(bool), typeof(string), typeof(string), typeof(List<Rule>))]
 public static class NameGenerator_GenerateName
 {
     [HarmonyPriority(Priority.VeryHigh)]

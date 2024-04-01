@@ -1,12 +1,6 @@
----------------------------------------------------------------------------------
-  Changelog for "Rainbeau's Tribal Pawn Names"
----------------------------------------------------------------------------------
+# Changelog for RFTribalPawnNames
 
-- 10/14/2018
-	- Updated to RimWorld 1.0 release!
-	- Tribal factions and settlements will now have names consistent with the
-	  style of the pawns' names.
-	- Updated the version of the Harmony library the mod uses.
+1.5.0 - Mod updated for 1.5 and passed autotests
 
-- 09/18/2018
-	- Initial release.
+
+1.4.1 - Mod updated for 1.4 and passed autotests

@@ -5,7 +5,7 @@ using Verse;
 
 namespace RTPN_Code;
 
-[HarmonyPatch(typeof(PawnBioAndNameGenerator), "GeneratePawnName")]
+[HarmonyPatch(typeof(PawnBioAndNameGenerator), nameof(PawnBioAndNameGenerator.GeneratePawnName))]
 public static class PawnBioAndNameGenerator_GeneratePawnName
 {
     [HarmonyPriority(Priority.VeryHigh)]

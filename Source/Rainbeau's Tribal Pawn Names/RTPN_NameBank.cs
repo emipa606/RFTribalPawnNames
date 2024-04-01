@@ -26,7 +26,7 @@ public class RTPN_NameBank
         {
             for (var j = 0; j < numSlots; j++)
             {
-                names[i, j] = new List<string>();
+                names[i, j] = [];
             }
         }
     }
