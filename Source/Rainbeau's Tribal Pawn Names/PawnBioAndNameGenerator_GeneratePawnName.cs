@@ -59,7 +59,7 @@ public static class PawnBioAndNameGenerator_GeneratePawnName
             return false;
         }
 
-        if (pawn.Faction == null || pawn.Faction.def.allowedCultures == null ||
+        if (pawn.Faction?.def.allowedCultures == null ||
             !pawn.Faction.def.allowedCultures.Any())
         {
             return true;

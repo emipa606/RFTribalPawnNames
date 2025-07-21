@@ -15,10 +15,10 @@ internal static class RTPN_Initializer
     {
         var harmony = new Harmony("net.rainbeau.rimworld.mod.pawnnames");
         harmony.PatchAll(Assembly.GetExecutingAssembly());
-        LongEventHandler.QueueLongEvent(Setup, "LibraryStartup", false, null);
+        LongEventHandler.QueueLongEvent(setup, "LibraryStartup", false, null);
     }
 
-    public static void Setup()
+    private static void setup()
     {
         banks = new Dictionary<PawnNameCategory, RTPN_NameBank>
         {

@@ -1,4 +1,4 @@
-# RFTribalPawnNames
+# [[RF] Tribal Pawn Names (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2016453798)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -9,10 +9,8 @@ Regarding the view from RF about the vanilla tribal names can be questioned like
 &quot;The tribal names in the base game RimWorld are from Galicians (Spanish Gaul tribes) during the Roman times. Tynan has confirmed this when he was asked about the names ... The impression that the in-game names are nonsense ... they are most certainly not.&quot;
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
-
 
 **This mod overhauls tribal pawn naming. Why? Well, the tribal names in the game have always felt a bit... "off" to me. It's probably nothing more than my own unfamiliarity with the cultures from which the names are drawn, but I always thought they seemed a bit more "Spanish" than tribal.
 
@@ -30,22 +28,22 @@ The changes made by the mod are as follows:
 
 - Rainbeau Flambe (dburgdorf)**
 
-# **[u]Compatibility:[/u]**
+# **<ins>Compatibility:</ins>**
 
 
 "Tribal Pawn Names" should be compatible with any other mods, and you should be able to add it to or remove it from a game in progress without causing any problems.
 
-# **[u]Credits:[/u]**
+# **<ins>Credits:</ins>**
 
 
 The mod utilizes Pardeike's "Harmony Patch Library." (No additional download is required, as the library is included with the mod.)
 
-# **[u]License:[/u]**
+# **<ins>License:</ins>**
 
 
 If you're a modpack maker and want to include "Tribal Pawn Names" in your pack, or if you're a modder and want to use it as the basis of a derivative mod, please feel free to do so. I ask only that you let me know about it.
 
-# *The Ludeon forums discussion thread for my mods can be found https://ludeon.com/forums/index.php?topic=46165]here. *
+# *The Ludeon forums discussion thread for my mods can be found [here](https://ludeon.com/forums/index.php?topic=46165). *
 
 
 If you have any (helpful) suggestions for improvement, please let me know!
@@ -57,13 +55,12 @@ If you have any (helpful) suggestions for improvement, please let me know!
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2016453798]![Image](https://img.shields.io/github/v/release/emipa606/RFTribalPawnNames?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[![Image](https://img.shields.io/github/v/release/emipa606/RFTribalPawnNames?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2016453798) | tags:  names,  overhaul

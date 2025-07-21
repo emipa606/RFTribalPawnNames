@@ -18,9 +18,9 @@ public class RTPN_NameBank
     private readonly List<string>[,] names;
     public PawnNameCategory nameType;
 
-    public RTPN_NameBank(PawnNameCategory ID)
+    public RTPN_NameBank(PawnNameCategory id)
     {
-        nameType = ID;
+        nameType = id;
         names = new List<string>[numGenders, numSlots];
         for (var i = 0; i < numGenders; i++)
         {
@@ -45,7 +45,7 @@ public class RTPN_NameBank
         }
     }
 
-    public void AddNames(RTPN_NameSlot slot, Gender gender, IEnumerable<string> namesToAdd)
+    private void addNames(RTPN_NameSlot slot, Gender gender, IEnumerable<string> namesToAdd)
     {
         var enumerator = namesToAdd.GetEnumerator();
         try
@@ -53,7 +53,7 @@ public class RTPN_NameBank
             while (enumerator.MoveNext())
             {
                 var current = enumerator.Current;
-                NamesFor(slot, gender).Add(current);
+                namesFor(slot, gender).Add(current);
             }
         }
         finally
@@ -66,7 +66,7 @@ public class RTPN_NameBank
     {
         var namesPath = Path.GetFullPath(Path.Combine(modBasePath, "Name Lists/"))
             .Replace('/', Path.DirectorySeparatorChar).Replace('\\', Path.DirectorySeparatorChar);
-        AddNames(slot, gender, RTPN_FileRead.LinesFromFile(string.Concat(namesPath, fileName)));
+        addNames(slot, gender, RTPN_FileRead.LinesFromFile(string.Concat(namesPath, fileName)));
     }
 
     public void ErrorCheck()
@@ -130,9 +130,9 @@ public class RTPN_NameBank
     public string GetName(RTPN_NameSlot slot, Gender gender = 0)
     {
         string str;
-        var strs = NamesFor(slot, gender);
+        var strings = namesFor(slot, gender);
         var num = 0;
-        if (strs.Count == 0)
+        if (strings.Count == 0)
         {
             Log.Error($"Name list for gender={gender} slot={slot} is empty.");
             return "Errorname";
@@ -140,7 +140,7 @@ public class RTPN_NameBank
 
         while (true)
         {
-            str = strs.RandomElement();
+            str = strings.RandomElement();
             if (!NameUseChecker.NameWordIsUsed(str))
             {
                 return str;
@@ -156,7 +156,7 @@ public class RTPN_NameBank
         return str;
     }
 
-    public List<string> NamesFor(RTPN_NameSlot slot, Gender gender)
+    private List<string> namesFor(RTPN_NameSlot slot, Gender gender)
     {
         return names[(int)gender, (int)slot];
     }
