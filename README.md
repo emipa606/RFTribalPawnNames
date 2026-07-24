@@ -1,6 +1,6 @@
 # [[RF] Tribal Pawn Names (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2016453798)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update Rainbeau Flambes mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1539314168
@@ -8,9 +8,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1539314168
 Regarding the view from RF about the vanilla tribal names can be questioned like this (from user Ric):
 &quot;The tribal names in the base game RimWorld are from Galicians (Spanish Gaul tribes) during the Roman times. Tynan has confirmed this when he was asked about the names ... The impression that the in-game names are nonsense ... they are most certainly not.&quot;
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 **This mod overhauls tribal pawn naming. Why? Well, the tribal names in the game have always felt a bit... "off" to me. It's probably nothing more than my own unfamiliarity with the cultures from which the names are drawn, but I always thought they seemed a bit more "Spanish" than tribal.
 
@@ -49,13 +49,13 @@ If you're a modpack maker and want to include "Tribal Pawn Names" in your pack, 
 If you have any (helpful) suggestions for improvement, please let me know!
 
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -63,4 +63,4 @@ If you have any (helpful) suggestions for improvement, please let me know!
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/RFTribalPawnNames?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2016453798) | tags:  names,  overhaul
+[![Image](https://img.shields.io/github/v/release/emipa606/RFTribalPawnNames?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2016453798) | tags: overhaul, names

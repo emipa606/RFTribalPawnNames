@@ -2,7 +2,7 @@
 <ModMetaData>
   <name>[RF] Tribal Pawn Names (Continued)</name>
   <packageId>Mlie.RFTribalPawnNames</packageId>
-  <author>Mlie</author>
+  <author>Rainbeau Flambe</author>
   <url>https://github.com/emipa606/RFTribalPawnNames</url>
   <supportedVersions>
     <li>1.0</li>
@@ -24,27 +24,27 @@
   <loadAfter>
     <li>brrainz.harmony</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+  <description>[img]https://img.litet.net/logos/Info.png[/img]
 Update Rainbeau Flambes mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1539314168
 
 Regarding the view from RF about the vanilla tribal names can be questioned like this (from user Ric):
 &amp;quot;The tribal names in the base game RimWorld are from Galicians (Spanish Gaul tribes) during the Roman times. Tynan has confirmed this when he was asked about the names ... The impression that the in-game names are nonsense ... they are most certainly not.&amp;quot;
 
-[img]https://i.imgur.com/pufA0kM.png[/img]
+[img]https://img.litet.net/logos/Notice.png[/img]
 
 [table]
 	[tr]
-		[td][url=https://discord.gg/h5TY6DA][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-		[td][url=https://github.com/emipa606/RFTribalPawnNames][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+		[td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/RFTribalPawnNames][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
     [/tr]
     [tr]
-        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
-        [td][img]https://i.imgur.com/h5VwTNL.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToRemove.png[/img][/td]
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[img]https://img.litet.net/logos/OriginalDescription.png[/img]
 
 [b]This mod overhauls tribal pawn naming. Why? Well, the tribal names in the game have always felt a bit... "off" to me. It's probably nothing more than my own unfamiliarity with the cultures from which the names are drawn, but I always thought they seemed a bit more "Spanish" than tribal.
 
@@ -79,17 +79,17 @@ If you're a modpack maker and want to include "Tribal Pawn Names" in your pack, 
 If you have any (helpful) suggestions for improvement, please let me know!
 
 
-[img]https://i.imgur.com/PwoNOj4.png[/img]
+[img]https://img.litet.net/logos/ReportingIssues.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2016453798][img]https://img.shields.io/github/v/release/emipa606/RFTribalPawnNames?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  names,  overhaul</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2016453798][img]https://img.shields.io/github/v/release/emipa606/RFTribalPawnNames?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: overhaul, names</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
 </ModMetaData>
