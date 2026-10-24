@@ -63,4 +63,4 @@ If you have any (helpful) suggestions for improvement, please let me know!
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/RFTribalPawnNames?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2016453798) | tags: overhaul, names
+[![Image](https://img.shields.io/github/v/release/emipa606/RFTribalPawnNames?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2016453798) | names, overhaul
